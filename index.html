@@ -1,7 +1,48 @@
-<html>
-	<head></head>
-	<body>
-		<p>kiubole desde la terminal</p>
-		<p>Estoy en la branch 2</p>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./app.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<nav>
+		<div class="barra">
+			<div class="imagenes">
+				<div class="riot">
+					<img src="https://media.glassdoor.com/sqll/247538/riot-games-squarelogo-1576663900054.png" alt=""width="30px" height="30px">
+				</div>
+				<hr class="gray">
+				<div class="lol">
+					<img src="data:image/png;base64,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" alt="" width="30px" height="30px">
+				</div>
+			</div>
+			
+
+			<div class="dos">
+				<p>Juego</p>
+				<p>Campeones</p>
+				<li><p>Noticias</p>
+
+				</li>
+				<p>Notas de la version</p>
+				<li><p>Descubrir</p></li>
+				<p>	Esports</p>
+				<p>Universe</p>
+				<p>Merchanding</p>
+				<p>Asistencia</p>
+			</div>
+
+			<div class="tres">
+				<p>Iniciar sesion</p>
+				<div>
+					<button>Jugar ahora</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+</body>
 </html>

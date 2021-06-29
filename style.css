@@ -16,7 +16,7 @@ nav {
 	height: 75px;
 }
 nav .dos{
-	color: white;
+	color: rgb(255, 255, 255);
 	
 }
 
@@ -52,35 +52,55 @@ nav .tres div{
 	margin-left: 50px
 }
 
-nav div > .lista {
+nav div > .lista  {
 	display: flex;
-	flex-direction: row;
 	font-size: 18px;
-	
 	padding-left: 0;
-	justify-content: space-between;
+	justify-content: space-around;
 }
-nav .dos ul li ul{
-	display: none;
-}
+
 nav .dos > .lista li{
 	height: 70px;
 	box-sizing: border-box
 }
+.lista .segunda > li{
+	display: none;
+} 
 
+.lista .segunda > li :hover {
+	display: block;
+}
 
 
 nav .dos > .lista li:hover{
-	border-bottom: 5px solid rgb(0, 46, 253);
-	
-
+	border-bottom: 3px solid rgb(0, 204, 255);
 }
 .dos .lista > li{
 	display: flex;
-	color: rgb(255, 255, 255);
 	justify-content: space-around;
 	align-items: center ;
 }
 .dos{
 	width: 50%;
+}
+.tres li{
+	padding-left: 50px;
+}
+
+.segunda{
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 75px;
+	padding: 0%;
+	width: 150px;
+	text-align:center ;
+	background-color: rgb(0, 0, 0);
+}
+.segunda li{
+	padding-top: 15px;
+}
+.segunda :hover{
+	border-bottom: coral;
+	background-color: rgb(54, 54, 54);
+	color: white;
 }

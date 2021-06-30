@@ -72,7 +72,9 @@ nav .dos > .lista li{
 	margin:1%
 	
 }
-
+.segunda :hover{
+	background-color: gray;
+}
 
 nav .dos > .lista li:hover{
 	border-bottom: 3px solid rgb(0, 204, 255);
